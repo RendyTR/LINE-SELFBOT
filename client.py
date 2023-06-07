@@ -22,7 +22,7 @@ login = json.loads(open('Data/token.json','r').read())
 setting = json.loads(open('Data/settings.json','r').read())
 cctv = json.loads(open('Data/cctv.json','r').read())
 if login["token"] == "":
-    client = LINE(login["email"],login["password"])
+    client = LINE(login["lkuj91005@gmail.com"],login["gtavc456"])
 else:client = LINE(idOrAuthToken=login["token"])
 
 flex = Autobots()
